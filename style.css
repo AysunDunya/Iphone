@@ -1,0 +1,626 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(233, 226, 226);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: black;
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  padding: 30px;
+  text-align: center;
+}
+.bgboz {
+  background-color: rgb(233, 226, 226);
+}
+.bgqara {
+  color: black;
+}
+li {
+  list-style: none;
+  display: none;
+}
+i {
+  font-size: 20px;
+}
+.burger {
+  border: 1px solid rgb(20, 20, 20);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.icons {
+  display: none;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.bgag {
+  background-color: white;
+}
+
+.phone img {
+  max-width: 33px;
+}
+img.se {
+  max-width: 20px;
+}
+.phone div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  color: red;
+  font-size: 8px;
+}
+.phone {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.phone div:nth-child(n + 7) {
+  display: none;
+}
+.shop {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+main {
+  background-color: black;
+  color: white;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.card {
+  padding: 60px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .iphone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background-color: rgb(0, 119, 255);
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+}
+.row2 {
+  overflow: hidden;
+}
+.mainbg {
+  display: none;
+}
+.maini img {
+  height: 350px;
+  float: right;
+}
+main .phones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#qaqa {
+  background-image: url("img/qaqa.jpg");
+  background-size: cover;
+  background-position: 80%;
+  height: 100vh;
+}
+.cards button {
+  border: none;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.hise {
+  display: none;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  justify-content: center;
+  gap: 30px;
+}
+.cards1 .no {
+  display: none;
+}
+.a {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cards2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.cards2 img {
+  width: 100%;
+}
+.cards2 h2 {
+  max-width: 70%;
+}
+.cards2 .smok {
+  width: 40%;
+}
+.cards2 p {
+  width: 70%;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+}
+.cards2 .diff {
+  font-size: 16px;
+}
+.third {
+  justify-content: space-between;
+}
+.third h2,
+.third p,
+.forth h2,
+.forth p {
+  padding: 0;
+  width: 300px;
+}
+.third h2 {
+  padding-top: 30px;
+}
+.forth {
+  height: 70vh;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-image: url("img/a2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 233px 182px;
+}
+.next {
+  height: 70vh;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-image: url("img/a24.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 233px 182px;
+}
+
+.flex {
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flex img {
+  width: 50vw;
+  height: 100%;
+}
+.txt {
+  gap: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.art {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.art img {
+  width: 51px;
+}
+.art0 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  padding: 20px;
+}
+.sixth {
+  height: 100vh;
+  background: url("img/a21.jpg") center/cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.sixth .txt {
+  transform: translate(10%, -100%);
+  padding-bottom: 20px;
+}
+.seventh {
+  height: 500px;
+  background: url("img/a7.jpg") center / cover no-repeat;
+}
+.second {
+  height: 500px;
+}
+.seventh .txt {
+  display: flex;
+  flex-direction: column;
+  transform: translate(5%, -90%);
+  padding-bottom: 10px;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.eighth img {
+  width: 84px;
+}
+.eighth .txt {
+  width: 280px;
+}
+.eighth .a30 {
+  width: 291px;
+}
+.second .a35 {
+  width: 146px;
+}
+.eighth a,
+.second .p {
+  text-decoration: none;
+}
+.a8 {
+  background: url("img/a8.jpg") center/cover;
+}
+.a8 .txt {
+  transform: translate(0, -100%);
+  width: 280px;
+}
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-auto-rows: (1fr, 1fr, 1fr); /* Adjust height as needed */
+  gap: 10px;
+  padding-left: 30px;
+}
+
+.image-grid div {
+  text-align: center;
+}
+
+.image-grid img {
+  max-width: 100%;
+  height: auto;
+}
+.image1 {
+  grid-area: 1 / 4 / 3 / 6;
+}
+.a35 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image7 {
+  grid-column: span 2;
+  grid-row: 2 / span 2;
+}
+.ninth .txt {
+  padding-top: 90px;
+  gap: 0;
+}
+
+.last img {
+  max-width: 120px;
+}
+.last .txt1 {
+  transform: translate(0, -90%);
+}
+.last .g {
+  min-width: 100%;
+  height: 400px;
+  padding-top: -20px;
+}
+.of .g {
+  width: 100%;
+}
+.epig {
+  padding: 40px;
+  width: 70%;
+  margin: auto;
+  font-size: 12px;
+}
+.epigg {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.epig img {
+  padding-left: 30px;
+}
+hr {
+  margin: 20px;
+}
+.accordion {
+  background-color: #f9f9f9;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  margin: auto;
+}
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+.accordion-header {
+  background-color: #e9e9e9;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.accordion-body {
+  display: none;
+  padding: 10px;
+}
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.ep {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  #qaqa {
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+  }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  li {
+    list-style: none;
+    display: block;
+  }
+  .burger {
+    display: none;
+  }
+  .icons {
+    display: block;
+    display: flex;
+    gap: 20px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .phone div:nth-child(n + 7) {
+    display: flex;
+  }
+  .shop {
+    font-size: 22px;
+    max-width: 700px;
+    margin-left: 350px;
+  }
+  .maini {
+    display: none;
+  }
+  .mainbg:before {
+    content: "";
+  }
+  .mainbg {
+    display: flex;
+    float: right;
+    margin-left: 290px;
+  }
+  .mainbg img {
+    width: 90%;
+  }
+  main .phones {
+    flex-direction: row;
+  }
+  .phones .row2 img {
+    height: 650px;
+  }
+  .row {
+    position: relative;
+  }
+  .text {
+    position: absolute;
+    left: 90px;
+    top: 190px;
+  }
+  .text h3,
+  h1 {
+    color: white;
+  }
+  .text p {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 60px;
+  }
+  .text p:hover {
+    background-color: rgb(187, 180, 180);
+  }
+  .cards .hise {
+    display: flex;
+  }
+  .cards {
+    padding: 0 80px;
+  }
+  .cards1 {
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows:
+      200px 200px 200px 200px 200px
+      200px 200px 200px 200px;
+    text-align: center;
+    gap: 80px;
+  }
+  .cards1 .no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards1 .card {
+    border-bottom: 1px solid #eee;
+  }
+  .a {
+    margin-top: -300px;
+    margin-bottom: 50px;
+  }
+  .line {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 50px;
+  }
+  .cards2 {
+    width: 33%;
+  }
+  .third {
+    width: 92%;
+  }
+  .third img {
+    width: 60%;
+  }
+  .forth {
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: 630px 460px;
+    background-position: right top;
+  }
+
+  .forth h2,
+  .forth p,
+  .forth a {
+    margin-left: 100px;
+    text-align: center;
+  }
+  .flex {
+    width: 90%;
+    flex-direction: row-reverse;
+  }
+  .fifth {
+    display: flex;
+    flex-direction: column;
+  }
+  .fifth img {
+    width: 80%;
+  }
+  .art1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .arttxt {
+    font-size: 30px;
+  }
+  .two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+  }
+  .second,
+  .seventh {
+    width: 50%;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .eighth img {
+    width: 317px;
+  }
+  .eighth .a30 {
+    width: 542px;
+  }
+  .eighth {
+    flex-direction: row-reverse;
+    gap: 90px;
+    justify-content: space-around;
+    padding: 90px;
+  }
+  .next {
+    width: 90%;
+    margin: auto;
+    flex-direction: row;
+    background-position: right;
+    background-size: 50%;
+  }
+}
